@@ -7,9 +7,15 @@ function calcTip(number) {
     }
 }
 const amount = [44, 555, 150]
-console.log(calcTip(amount[0]))
-console.log(calcTip(amount[1]))
-console.log(calcTip(amount[2]))
+let a = calcTip(amount[0])
+let b = calcTip(amount[1])
+let c = calcTip(amount[2])
 
 
-//console.log(amount[0], amount[1], amount[2])
+const tips  = []
+
+tips.push(a)
+tips.push(b)
+tips.push(c)
+console.log(amount)
+console.log(tips)
